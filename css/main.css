@@ -219,6 +219,15 @@ i{
   color: white;
 }
 
+.fa-envelope{
+  font-size: 1em;
+  padding: 0;
+}
+
+.fa-cup-togo{
+  color: black;
+}
+
 /*TILT*/
 .tilt {
   -webkit-transition: all 0.5s ease;
