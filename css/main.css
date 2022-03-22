@@ -132,6 +132,10 @@ ul{
   font-family: "Lekton";
 }
 
+.nav{
+  justify-content: flex-end;
+}
+
 a.nav-link{
   color: #EEEFDA;
 }
@@ -334,8 +338,10 @@ i{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 500px) {
   /* Style adjustments for viewports that meet the condition */
+  header nav{
+    display: none;
 }
 
 @media print,
