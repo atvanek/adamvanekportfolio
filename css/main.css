@@ -95,6 +95,14 @@
     font-size: 1.25em;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
+
+  nav ul li a:hover {
+    background-color: #d9b054;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  nav ul li a{
+    border-radius: 25px;
+  }
   
   h1{
     font-family: "Lexend Tera";
@@ -172,11 +180,7 @@
   max-width: 70%;
   height: auto;
   }
-  
-  .project-img-container{
-  
-   
-  }
+
   
   .badge-pill{
     font-size: 1em;
@@ -226,6 +230,21 @@
   
   .fa-cup-togo{
     color: black;
+  }
+
+  a.nav-link:hover{
+    color:#EEEFDA;
+    border-radius: 25px;
+  }
+  
+  
+  a:hover{
+    color:#EEEFDA;
+  }
+
+  .fa-brands:hover{
+    color:#EEEFDA;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
   
   /*TILT*/
